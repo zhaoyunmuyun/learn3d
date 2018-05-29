@@ -1,0 +1,9 @@
+1、git clone
+2、操作
+3、git status	//查看状态
+4、git add .	//添加当前工作目录文件到index
+5、git commit -m "  "
+6、git push
+
+
+browser-sync start --server --directory --files "*"

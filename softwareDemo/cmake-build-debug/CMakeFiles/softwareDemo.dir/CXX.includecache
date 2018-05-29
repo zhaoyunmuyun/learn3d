@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chen/Desktop/code/C++/softwareDemo/main.cpp
+GL/freeglut.h
+-
+GL/gl.h
+-
+GL/glu.h
+-
+

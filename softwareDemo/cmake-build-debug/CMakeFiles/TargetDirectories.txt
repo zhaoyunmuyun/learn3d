@@ -1,0 +1,3 @@
+/home/chen/Desktop/code/C++/softwareDemo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/chen/Desktop/code/C++/softwareDemo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/chen/Desktop/code/C++/softwareDemo/cmake-build-debug/CMakeFiles/softwareDemo.dir
