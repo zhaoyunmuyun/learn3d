@@ -43,10 +43,10 @@ RM = /home/chen/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chen/Desktop/code/C++/softwareDemo
+CMAKE_SOURCE_DIR = /home/chen/Desktop/code/C++/learn3d/softwareDemo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chen/Desktop/code/C++/softwareDemo/cmake-build-debug
+CMAKE_BINARY_DIR = /home/chen/Desktop/code/C++/learn3d/softwareDemo/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/softwareDemo.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/softwareDemo.dir/flags.make
 
 CMakeFiles/softwareDemo.dir/main.cpp.o: CMakeFiles/softwareDemo.dir/flags.make
 CMakeFiles/softwareDemo.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/Desktop/code/C++/softwareDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/softwareDemo.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/softwareDemo.dir/main.cpp.o -c /home/chen/Desktop/code/C++/softwareDemo/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/Desktop/code/C++/learn3d/softwareDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/softwareDemo.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/softwareDemo.dir/main.cpp.o -c /home/chen/Desktop/code/C++/learn3d/softwareDemo/main.cpp
 
 CMakeFiles/softwareDemo.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/softwareDemo.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/Desktop/code/C++/softwareDemo/main.cpp > CMakeFiles/softwareDemo.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/Desktop/code/C++/learn3d/softwareDemo/main.cpp > CMakeFiles/softwareDemo.dir/main.cpp.i
 
 CMakeFiles/softwareDemo.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/softwareDemo.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/Desktop/code/C++/softwareDemo/main.cpp -o CMakeFiles/softwareDemo.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/Desktop/code/C++/learn3d/softwareDemo/main.cpp -o CMakeFiles/softwareDemo.dir/main.cpp.s
 
 CMakeFiles/softwareDemo.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/softwareDemo.dir/main.cpp.o.provides.build: CMakeFiles/softwareDemo.d
 
 CMakeFiles/softwareDemo.dir/math/myMath.cpp.o: CMakeFiles/softwareDemo.dir/flags.make
 CMakeFiles/softwareDemo.dir/math/myMath.cpp.o: ../math/myMath.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/Desktop/code/C++/softwareDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/softwareDemo.dir/math/myMath.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/softwareDemo.dir/math/myMath.cpp.o -c /home/chen/Desktop/code/C++/softwareDemo/math/myMath.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/Desktop/code/C++/learn3d/softwareDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/softwareDemo.dir/math/myMath.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/softwareDemo.dir/math/myMath.cpp.o -c /home/chen/Desktop/code/C++/learn3d/softwareDemo/math/myMath.cpp
 
 CMakeFiles/softwareDemo.dir/math/myMath.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/softwareDemo.dir/math/myMath.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/Desktop/code/C++/softwareDemo/math/myMath.cpp > CMakeFiles/softwareDemo.dir/math/myMath.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/Desktop/code/C++/learn3d/softwareDemo/math/myMath.cpp > CMakeFiles/softwareDemo.dir/math/myMath.cpp.i
 
 CMakeFiles/softwareDemo.dir/math/myMath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/softwareDemo.dir/math/myMath.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/Desktop/code/C++/softwareDemo/math/myMath.cpp -o CMakeFiles/softwareDemo.dir/math/myMath.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/Desktop/code/C++/learn3d/softwareDemo/math/myMath.cpp -o CMakeFiles/softwareDemo.dir/math/myMath.cpp.s
 
 CMakeFiles/softwareDemo.dir/math/myMath.cpp.o.requires:
 
@@ -105,22 +105,48 @@ CMakeFiles/softwareDemo.dir/math/myMath.cpp.o.provides: CMakeFiles/softwareDemo.
 CMakeFiles/softwareDemo.dir/math/myMath.cpp.o.provides.build: CMakeFiles/softwareDemo.dir/math/myMath.cpp.o
 
 
+CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.o: CMakeFiles/softwareDemo.dir/flags.make
+CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.o: ../pipline/myPiple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/Desktop/code/C++/learn3d/softwareDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.o -c /home/chen/Desktop/code/C++/learn3d/softwareDemo/pipline/myPiple.cpp
+
+CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/Desktop/code/C++/learn3d/softwareDemo/pipline/myPiple.cpp > CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.i
+
+CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/Desktop/code/C++/learn3d/softwareDemo/pipline/myPiple.cpp -o CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.s
+
+CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.o.requires:
+
+.PHONY : CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.o.requires
+
+CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.o.provides: CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.o.requires
+	$(MAKE) -f CMakeFiles/softwareDemo.dir/build.make CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.o.provides.build
+.PHONY : CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.o.provides
+
+CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.o.provides.build: CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.o
+
+
 # Object files for target softwareDemo
 softwareDemo_OBJECTS = \
 "CMakeFiles/softwareDemo.dir/main.cpp.o" \
-"CMakeFiles/softwareDemo.dir/math/myMath.cpp.o"
+"CMakeFiles/softwareDemo.dir/math/myMath.cpp.o" \
+"CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.o"
 
 # External object files for target softwareDemo
 softwareDemo_EXTERNAL_OBJECTS =
 
 softwareDemo: CMakeFiles/softwareDemo.dir/main.cpp.o
 softwareDemo: CMakeFiles/softwareDemo.dir/math/myMath.cpp.o
+softwareDemo: CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.o
 softwareDemo: CMakeFiles/softwareDemo.dir/build.make
 softwareDemo: /usr/lib/x86_64-linux-gnu/libGL.so
 softwareDemo: /usr/lib/x86_64-linux-gnu/libGLU.so
 softwareDemo: /usr/lib/x86_64-linux-gnu/libglut.so
 softwareDemo: CMakeFiles/softwareDemo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chen/Desktop/code/C++/softwareDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable softwareDemo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chen/Desktop/code/C++/learn3d/softwareDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable softwareDemo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/softwareDemo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -130,6 +156,7 @@ CMakeFiles/softwareDemo.dir/build: softwareDemo
 
 CMakeFiles/softwareDemo.dir/requires: CMakeFiles/softwareDemo.dir/main.cpp.o.requires
 CMakeFiles/softwareDemo.dir/requires: CMakeFiles/softwareDemo.dir/math/myMath.cpp.o.requires
+CMakeFiles/softwareDemo.dir/requires: CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.o.requires
 
 .PHONY : CMakeFiles/softwareDemo.dir/requires
 
@@ -138,6 +165,6 @@ CMakeFiles/softwareDemo.dir/clean:
 .PHONY : CMakeFiles/softwareDemo.dir/clean
 
 CMakeFiles/softwareDemo.dir/depend:
-	cd /home/chen/Desktop/code/C++/softwareDemo/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chen/Desktop/code/C++/softwareDemo /home/chen/Desktop/code/C++/softwareDemo /home/chen/Desktop/code/C++/softwareDemo/cmake-build-debug /home/chen/Desktop/code/C++/softwareDemo/cmake-build-debug /home/chen/Desktop/code/C++/softwareDemo/cmake-build-debug/CMakeFiles/softwareDemo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chen/Desktop/code/C++/learn3d/softwareDemo/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chen/Desktop/code/C++/learn3d/softwareDemo /home/chen/Desktop/code/C++/learn3d/softwareDemo /home/chen/Desktop/code/C++/learn3d/softwareDemo/cmake-build-debug /home/chen/Desktop/code/C++/learn3d/softwareDemo/cmake-build-debug /home/chen/Desktop/code/C++/learn3d/softwareDemo/cmake-build-debug/CMakeFiles/softwareDemo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/softwareDemo.dir/depend
 

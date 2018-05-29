@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/softwareDemo.dir/main.cpp.o"
   "CMakeFiles/softwareDemo.dir/math/myMath.cpp.o"
+  "CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.o"
   "softwareDemo.pdb"
   "softwareDemo"
 )

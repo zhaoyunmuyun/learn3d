@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/softwareDemo.dir/main.cpp.o CMakeFiles/softwareDemo.dir/math/myMath.cpp.o  -o softwareDemo /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so /usr/lib/x86_64-linux-gnu/libglut.so 
+/usr/bin/c++  -g   CMakeFiles/softwareDemo.dir/main.cpp.o CMakeFiles/softwareDemo.dir/math/myMath.cpp.o CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.o  -o softwareDemo /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so /usr/lib/x86_64-linux-gnu/libglut.so 

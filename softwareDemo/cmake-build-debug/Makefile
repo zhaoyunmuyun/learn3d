@@ -48,10 +48,10 @@ RM = /home/chen/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chen/Desktop/code/C++/softwareDemo
+CMAKE_SOURCE_DIR = /home/chen/Desktop/code/C++/learn3d/softwareDemo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chen/Desktop/code/C++/softwareDemo/cmake-build-debug
+CMAKE_BINARY_DIR = /home/chen/Desktop/code/C++/learn3d/softwareDemo/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/Desktop/code/C++/softwareDemo/cmake-build-debug/CMakeFiles /home/chen/Desktop/code/C++/softwareDemo/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/Desktop/code/C++/learn3d/softwareDemo/cmake-build-debug/CMakeFiles /home/chen/Desktop/code/C++/learn3d/softwareDemo/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/Desktop/code/C++/softwareDemo/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/Desktop/code/C++/learn3d/softwareDemo/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,33 @@ math/myMath.cpp.s:
 	$(MAKE) -f CMakeFiles/softwareDemo.dir/build.make CMakeFiles/softwareDemo.dir/math/myMath.cpp.s
 .PHONY : math/myMath.cpp.s
 
+pipline/myPiple.o: pipline/myPiple.cpp.o
+
+.PHONY : pipline/myPiple.o
+
+# target to build an object file
+pipline/myPiple.cpp.o:
+	$(MAKE) -f CMakeFiles/softwareDemo.dir/build.make CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.o
+.PHONY : pipline/myPiple.cpp.o
+
+pipline/myPiple.i: pipline/myPiple.cpp.i
+
+.PHONY : pipline/myPiple.i
+
+# target to preprocess a source file
+pipline/myPiple.cpp.i:
+	$(MAKE) -f CMakeFiles/softwareDemo.dir/build.make CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.i
+.PHONY : pipline/myPiple.cpp.i
+
+pipline/myPiple.s: pipline/myPiple.cpp.s
+
+.PHONY : pipline/myPiple.s
+
+# target to generate assembly for a file
+pipline/myPiple.cpp.s:
+	$(MAKE) -f CMakeFiles/softwareDemo.dir/build.make CMakeFiles/softwareDemo.dir/pipline/myPiple.cpp.s
+.PHONY : pipline/myPiple.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... math/myMath.o"
 	@echo "... math/myMath.i"
 	@echo "... math/myMath.s"
+	@echo "... pipline/myPiple.o"
+	@echo "... pipline/myPiple.i"
+	@echo "... pipline/myPiple.s"
 .PHONY : help
 
 
